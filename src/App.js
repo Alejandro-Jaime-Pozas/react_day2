@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from "./components/Nav";
+import ToDo from "./components/ToDo";
+// import ToDoForm from "./components/ToDoForm";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props) {
+    // return value for <> needs to be ONE ELEMENT, cannot be more than one
+    return (
+        <>
+        <Nav />
+        <div className='container'>
+            <br></br>
+            {/* ToDo below contains multiple elements, mainly the whole to-do functionality section */}
+            <ToDo />
+        </div>
+        
+        </>
+    );
 }
 
 export default App;

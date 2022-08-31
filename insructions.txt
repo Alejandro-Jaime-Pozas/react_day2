@@ -1,0 +1,9 @@
+instructions:
+
+Using the skills covered in class today and yesterday, please create a new app. 
+
+Your app should also display the names of you and your fellow Kekambas by using this API endpoint*: https://kekambas-bs.herokuapp.com/kekambas. 
+
+You may use either function or class components. 
+
+You can display the data automatically or you may display the data after an event (onClick, onSubmit, etc.).
